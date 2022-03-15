@@ -23,7 +23,7 @@ console.log(nombre3);
     let nombre4 = 'Arturo';
     console.log(nombre4);
 }
-
+// NO sabrá a qué variable hacemos referencia
 // console.log(nombre4);
 nombre3 = 'Julio';
 console.log(nombre3);
@@ -38,5 +38,5 @@ console.log(nombre5);
     console.log(nombre5)
     const nombre6 = 'Carlos';
 }
-
-console.log(nombre6);
+// NO sabrá a qué variable hacemos referencia
+// console.log(nombre6);
