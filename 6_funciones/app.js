@@ -1,5 +1,5 @@
 // FUNCIONES
-nombreFuncion();
+// nombreFuncion();
 
 {
     // SCOPE
@@ -7,11 +7,11 @@ nombreFuncion();
 }
 
 // código en el archivo principal
-console.log('mensaje fuera de una función');
-console.log('mensaje fuera de una función');
-console.log('mensaje fuera de una función');
-console.log('mensaje fuera de una función');
-console.log('mensaje fuera de una función');
+// console.log('mensaje fuera de una función');
+// console.log('mensaje fuera de una función');
+// console.log('mensaje fuera de una función');
+// console.log('mensaje fuera de una función');
+// console.log('mensaje fuera de una función');
 
 // Estructura y creación de una función
 function nombreFuncion () {
@@ -24,11 +24,11 @@ function nombreFuncion () {
 
 // Mandar llamar-Ejecutar-Invocar-Correr una función
 // Con su nombre y paréntesis
-nombreFuncion();
-nombreFuncion();
-nombreFuncion();
-nombreFuncion();
-nombreFuncion();
+// nombreFuncion();
+// nombreFuncion();
+// nombreFuncion();
+// nombreFuncion();
+// nombreFuncion();
 // Una función se puede mandar llamar todas las veces que yo quiera
 
 // Creación de otra función
@@ -40,7 +40,53 @@ function saludar() {
 }
 
 // Ejecución de la función 5 veces
-saludar();
-saludar();
-saludar();
-saludar();
+// saludar();
+// saludar();
+// saludar();
+// saludar();
+
+// Revisar archivo ejercicios1.js
+
+// Uso de parámetros en funciones
+// Los parámetros nos sirven para que las funciones sean dinámicas
+
+// Ejemplo sin parámetros
+
+function sumarDosNumeros () {
+    let n1 = 1;
+    let n2 = 50;
+    console.log(n1 +n2);
+}
+
+// sumarDosNumeros();
+// sumarDosNumeros();
+// sumarDosNumeros();
+// sumarDosNumeros();
+
+// Ejemplo con parámetros
+// Dentro de los paréntesis definimos la cantidad de parámetros que la función necesita y los nombramos con un nombre de referencia
+function sumarDosNumerosConParametros (numeroA, numeroB) {
+    let suma = numeroA + numeroB;
+    console.log(suma);
+}
+
+// Mandar llamar la función y enviar valores como parámetros
+// sumarDosNumerosConParametros(1, 10);
+// sumarDosNumerosConParametros(20, 300);
+// sumarDosNumerosConParametros(2, 5000000);
+// sumarDosNumerosConParametros(10, 100);
+
+
+function registrarUsuario (nombreUsuario) {
+    console.log('Bienvenidx, ' + nombreUsuario);
+}
+
+registrarUsuario('Ana');
+registrarUsuario('Julio');
+registrarUsuario(10);
+let nombre1 = 'carlos';
+
+registrarUsuario(nombre1);
+
+
+
