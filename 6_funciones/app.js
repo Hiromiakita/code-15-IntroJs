@@ -98,3 +98,8 @@ mostrarNumeros(2);
 mostrarNumeros(30);
 
 // Revisar archivo ejercicios2.js
+
+// LEER
+
+// Funciones con return
+
