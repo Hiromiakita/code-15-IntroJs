@@ -3,7 +3,10 @@ nombreFuncion();
 
 {
     // SCOPE
+    // las variables locales que crearé aquí, sólo existirán en este espacio
 }
+
+// código en el archivo principal
 console.log('mensaje fuera de una función');
 console.log('mensaje fuera de una función');
 console.log('mensaje fuera de una función');
@@ -12,11 +15,11 @@ console.log('mensaje fuera de una función');
 
 // Estructura y creación de una función
 function nombreFuncion () {
-    console.log('FUNCIÓN');
-    console.log('sigo siendo la función');
     // Instrucciones
     // Las instrucciones declaradas dentro del cuerpo de una fucnió
     // sólo se ejecutarán cuando yo invoque a la función
+    console.log('FUNCIÓN');
+    console.log('sigo siendo la función');
 }
 
 // Mandar llamar-Ejecutar-Invocar-Correr una función
@@ -26,7 +29,9 @@ nombreFuncion();
 nombreFuncion();
 nombreFuncion();
 nombreFuncion();
+// Una función se puede mandar llamar todas las veces que yo quiera
 
+// Creación de otra función
 function saludar() {
     // Instrucciones
     let nombre = 'Hiromi';
@@ -34,6 +39,7 @@ function saludar() {
 
 }
 
+// Ejecución de la función 5 veces
 saludar();
 saludar();
 saludar();
