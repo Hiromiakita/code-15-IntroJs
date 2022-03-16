@@ -81,12 +81,18 @@ function registrarUsuario (nombreUsuario) {
     console.log('Bienvenidx, ' + nombreUsuario);
 }
 
-registrarUsuario('Ana');
-registrarUsuario('Julio');
-registrarUsuario(10);
+// registrarUsuario('Ana');
+// registrarUsuario('Julio');
+// registrarUsuario(10);
 let nombre1 = 'carlos';
+// registrarUsuario(nombre1);
 
-registrarUsuario(nombre1);
+function mostrarNumeros(limite) {
+    for(let i = 1; i <= limite; i++) {
+        console.log(i);
+    }
+}
 
-
-
+mostrarNumeros(20);
+mostrarNumeros(2);
+mostrarNumeros(30);
