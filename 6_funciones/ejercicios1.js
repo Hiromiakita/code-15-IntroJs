@@ -1,3 +1,5 @@
+// Intro funciones
+
 // 1. Crear una función que nos muestre en consola los días de la semana.
 
 function mostrarDias () {
