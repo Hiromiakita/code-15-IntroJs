@@ -93,13 +93,46 @@ function mostrarNumeros(limite) {
     }
 }
 
-mostrarNumeros(20);
-mostrarNumeros(2);
-mostrarNumeros(30);
+// mostrarNumeros(20);
+// mostrarNumeros(2);
+// mostrarNumeros(30);
 
 // Revisar archivo ejercicios2.js
 
 // LEER
 
 // Funciones con return
+
+function calcularAreaCuadrado (lado) {
+    let area = lado * lado;
+    // return -> nos indica el final de la función y 
+    // el return nos entrega el valor por el cual la función existe
+    return area;
+}
+
+let resultado = calcularAreaCuadrado(5);
+console.log(resultado);
+
+let resultado2 = calcularAreaCuadrado(10);
+console.log(resultado2)
+
+console.log(resultado * resultado2);
+
+function crearCodigo (nombre, edad) {
+    let codigo = nombre[0]+edad;
+    return codigo;
+}
+
+let codigo = crearCodigo('Diana', 22);
+
+function validarCodigo (codigo) {
+    if(codigo.length === 3) {
+        return `El código ${codigo} sí es válido`
+    } else {
+        return `El código ${codigo} NO es válido`
+    }
+}
+
+console.log(validarCodigo('codigo'));
+
 

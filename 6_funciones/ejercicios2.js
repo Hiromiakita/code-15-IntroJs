@@ -4,15 +4,16 @@
 
 function evaluarNumero(numero) {
     if(numero > 0) {
-        console.log(numero + ' es positivo');
+        return numero + ' es positivo';
     } else if(numero < 0) {
-        console.log(numero + ' es negativo');
+        return numero + ' es negativo';
     } else {
-        console.log(numero + ' no es ni positivo ni negativo')
+        return numero + ' no es ni positivo ni negativo';
     }
 }
 
-// evaluarNumero(1);
+let res1 = evaluarNumero(1)
+// console.log(res1);
 // evaluarNumero(100);
 // evaluarNumero(-50);
 // evaluarNumero(-30.5);
@@ -87,8 +88,6 @@ calcularPromedio([10, 10, 10, 90, 70, 50, 30, 40, 70]);
 
 let array1 = [100, 90, 80, 80, 70, 50];
 calcularPromedio(array1);
-
-
 
 // 4. Crear una función que reciba un número y nos diga si es par o impar
 
