@@ -1,0 +1,22 @@
+.bg-purple {
+    background-color: purple !important;
+}
+
+.text-purple {
+    color: purple;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.btn-purple {
+    border: rgb(68, 7, 68);
+    background-color: purple;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: rgb(68, 7, 68);
+    color: white;
+}
