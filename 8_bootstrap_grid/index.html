@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      [class*="col"] {
+        border: 2px solid white;
+        min-height: 40px;
+      }
+      .red {
+        background-color: red;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .green {
+        background-color: greenyellow;
+      }
+      .pink {
+        background-color: palevioletred;
+      }
+      .orange {
+        background-color: peachpuff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Primer elemento de un grid es el contenedor -->
+    <div class="container-fluid">
+      <!-- El segundo elemento es la fila -->
+      <div class="row">
+        <!-- Una fila se puede dividir hasta en 12 columnas -->
+        <!-- 
+            Si al definir una columna no se le pone tamaño bootstrap
+            tomara el espacio disponible y lo dividira entre los cols definidos
+            sin respetar la regla de las 12 columnas
+            -->
+        <div class="col-12 green"></div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-sm-2 red"></div>
+            <div class="col-sm-10">
+              <div class="row">
+                <div class="col-md-12 pink"></div>
+                <div class="col-md-6 orange"></div>
+                <div class="col-md-6 orange"></div>
+                <div class="col-md-2 col-sm-4 col-6 blue"></div>
+                <div class="col-md-2 col-sm-4 col-6 blue"></div>
+                <div class="col-md-4 col-sm-4 col-6 blue"></div>
+                <div class="col-md-2 col-sm-4 col-6 blue"></div>
+                <div class="col-md-2 col-sm-4 col-6 blue"></div>
+                <div class="col-md-2 col-sm-4 col-6 blue"></div>
+                <div class="col-md-2 col-sm-4 col-6 blue"></div>
+                <div class="col-md-4 col-sm-4 col-6 blue"></div>
+                <div class="col-md-2 col-sm-4 col-6 blue"></div>
+                <div class="col-md-2 col-sm-4 col-6 blue"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 green"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
