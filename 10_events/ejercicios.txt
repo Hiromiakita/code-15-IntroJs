@@ -1,0 +1,83 @@
+Ejercicio 1:
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Ejercicio 1</title>
+ </head>
+ <body>
+ 
+ <h1>Ejercicio 1</h1>
+ 
+ <ul>
+  <li>Complemento: <input type="text" id="complement">
+  <li>Verbo: <input type="text" id="verb">
+  <li>Algun nombre: <input type="text" id="person">
+ </ul>
+ 
+ <button id="lib-button">Junta palabras</button>
+  
+ <div id="story"></div>
+  
+ </body>
+</html>
+
+Instrucciones:
+Agregue una etiqueta <script> en la parte inferior de la página para su código.
+Agregue un evento al botón para que llame a una función hacerFrase cuando se haga clic.
+En la función hacerFrase, recupere los valores actuales de los elementos del formulario, crea una frase a partir de ellos y envíela al elemento #story
+Ej: "Anita lava la tina"
+
+Ejercicio 2:
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Calculadora</title>
+</head>
+<body>
+  <!-- Cuando apriete a -->
+  <label>Cuadrado de este numero:
+    <input type="number" id="square" size="2">
+  </label>
+  <button id="square-button">Calcular</button>
+  <br><br>
+
+  <!-- Cuando apriete b -->
+  <label>Mitad de este numero:
+    <input type="number" id="half" size="2">
+  </label>
+  <button id="half-button">Calcular</button>
+  <br><br>
+  
+  <!-- Cuando apriete c -->
+  <label>
+    Porcentaje:
+    <input type="number" id="percentage" size="2"> %
+  </label>
+  <label>
+    De:
+    <input type="number" id="entireValue" size="2">
+  </label>
+  <button id="percent-button">Calcular</button>
+  <br><br>
+  
+  <!-- Cuando apriete d -->
+  <label>Calcular el area del circulo con radio:
+    <input type="number" id="radius" size="2">
+  </label>
+  <button id="area-button">Calcular</button> 
+  <br><br>
+
+  <div id="solution"></div>
+
+</body>
+</html>
+
+Instrucciones:
+Agregue una etiqueta <script> en la parte inferior de la página para su código
+Crear una funcion que resuelva cada una de las operaciones
+Al dar clic a cada uno de los botones calcular la operacion correspondiente y pintar el resultado en el #solution
+
+BONUS! Hacer que el calculo de la operación se haga cuando se presione la tecla que viene en el comentario
+Recuerden que para detectar teclas el evento es onkeypress para inline y atributo... y keypress para addEventListener
